@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+/* Body */
+body {
+    background: #f0f4f4;
+}
+
+/* back to top */
+.btt{
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    color:#5b5b5b8e;
+    font-size: 50px;
+    font-weight: 300;
+    display: inline-block;
+    position: fixed;
+    z-index: 5000;
+    bottom: 20px;
+    right: 20px;
+}
+
+.btt:hover{
+    color: #df72667a;
+}
+/* Back to home */
+.bth{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background:#5b5b5b62;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    position: fixed;
+    z-index: 5000;
+    bottom: 90px;
+    right: 20px;
+}
+
+.bth:hover{
+    background:#df72667a;
+    color:#fff;
+}
+
+/* Form */
+.form1{
+    width: 60%;
+    height: 700px;
+    border: rgba(0, 0, 0, 0.144) 1px solid;
+    margin:20px auto;
+}
+
+.warnings{
+    color: red;
+}
+
+.form1 .title{
+    margin: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.form1 h1{
+    border-bottom: black 1px solid;
+    color: rgba(0, 0, 0, 0.836);
+    text-align: center;
+}
+
+.map{
+    width: 405px;
+    height: 308px;
+    margin: 15px auto;
+    border: 3px solid rgb(189, 183, 183);
+}
+
+.address{
+    text-align: center;
+}
+
+.container2 p {
+    text-align: center;
+    color: #5b5b5b;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Botones */
+
+.btns{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btns button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 1px 0px ;
+    height: 50px;
+    width: 120px;
+}
+
+.btns button:hover{
+    background: #df726626;
+    height: 55px;
+    width: 130px;
+}
+
+/* social media */
+.sMdiv {
+    background: rgb(44, 44, 44);
+    border-radius: 25px;
+}
+
+.sMdiv svg {
+    margin: 10px;
+    padding: 3px;
+}
+.sMdiv svg:hover {
+    padding: 0px;
+}
+
+/* TyC */
+.tyc a,
+.tyc p {
+    text-decoration: none;
+    color: lightgray;
+    text-align: center;
+}
+
+.tyc a:hover,
+.tyc p:hover {
+    color: #ef8376;
+}
+
+.camp{
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+
+.resp{
+    font-size: 16px;
+    color: #898989;
+}
+
+#contactvalues{
+    text-align: center;
+}
+
+
+/* fomr */
+
+
+
+.fijar {
+    margin-top: -135px;
+  }
+
+  #evalido {
+    color: green;
+    font-size: 20px;
+  }
+
+  #einvalido {
+    color: red;
+    font-size: 20px;
+  }
+
